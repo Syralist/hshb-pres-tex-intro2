@@ -39,7 +39,7 @@ literate={ä}{{\"a}}1
 \end{alertblock} %
 \end{frame}}
  
-\title{\LaTeX{} --- Eine weitere Einführung}
+\title{\LaTeX{} --- Einführung Teil 2}
 \author{Thomas Helmke}
 \date{06.09.2014}
 \logo{\includegraphics[width=1.1cm]{space-logo}}
@@ -52,37 +52,53 @@ literate={ä}{{\"a}}1
 \divider{\insertsection}
 \subsection{Typen von Aufzählungen}
 \begin{frame}[<+->] %%Eine Folie
-	\frametitle{-} %%Folientitel
+	\frametitle{Möglichkeiten zur Aufzählung} %%Folientitel
 	\begin{itemize}
-		\item -
+		\item itemize
+        \item enumerate
+        \item description
 	\end{itemize}
 \end{frame}
 \subsection{Formatierung anpassen}
 \begin{frame}[<+->] %%Eine Folie
-	\frametitle{-} %%Folientitel
+	\frametitle{Aufzählungen formatieren mit enumitem} %%Folientitel
 	\begin{itemize}
-		\item -
+		\item Paket enumitem
+        \item Abstände können angepasst werden
+        \item Eigene Aufzählungszeichen verwenden
 	\end{itemize}
 \end{frame}
 
 \section{Floating Environments}
 \divider{\insertsection}
 \subsection{Bilder und Tabellen bändigen}
+\begin{frame}[<+->] %%Eine Folie
+	\frametitle{Bilder und Tabellen bändigen} %%Folientitel
+	\begin{itemize}
+		\item Paket placeins
+        \item FloatBarrier
+        \item Minipage
+	\end{itemize}
+\end{frame}
 
 \section{Zitieren}
 \divider{\insertsection}
 \subsection{Wörtliche Zitate}
 \begin{frame}[<+->] %%Eine Folie
-	\frametitle{-} %%Folientitel
+	\frametitle{Wörtliche Zitate} %%Folientitel
 	\begin{itemize}
-		\item -
+        \item enquote-Befehl
+		\item quote-Umgebung
+        \item Zitate formatieren
 	\end{itemize}
 \end{frame}
 \subsection{Literaturverzeichnis}
 \begin{frame}[<+->] %%Eine Folie
-	\frametitle{-} %%Folientitel
+	\frametitle{Literaturverzeichnis anlegen} %%Folientitel
 	\begin{itemize}
-		\item -
+		\item bib-Datei
+        \item bibtex oder biber
+        \item biblatex einbinden
 	\end{itemize}
 \end{frame}
 
@@ -90,16 +106,19 @@ literate={ä}{{\"a}}1
 \divider{\insertsection}
 \subsection{SI-Einheiten}
 \begin{frame}[<+->] %%Eine Folie
-	\frametitle{-} %%Folientitel
+	\frametitle{SI-Einheiten setzen} %%Folientitel
 	\begin{itemize}
-		\item -
+		\item Paket SIunitx
+        \item Befehl SI
+        \item Tabellen mit Einheiten
 	\end{itemize}
 \end{frame}
 \subsection{Chemische Formeln}
 \begin{frame}[<+->] %%Eine Folie
-	\frametitle{-} %%Folientitel
+	\frametitle{Chemische Formeln setzen} %%Folientitel
 	\begin{itemize}
-		\item -
+		\item Paket mhchem
+        \item Befehl ce
 	\end{itemize}
 \end{frame}
 
